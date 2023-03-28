@@ -3,7 +3,7 @@
 Analizador léxico para el lenguaje D programado en C, diseñado para la materia de 3º año de la carrera de  Ingeniería Informática de la Universidad de Santiago de Compostela. 
 
 ## Descripción
-El analizador obtiene los lexemas del lenguaje D, algunos de los lexememas menos comunes no están contemplados en el analizador, como por ejemplo los número en octal o algunos símbolos especiales.
+El analizador obtiene los lexemas del lenguaje D, algunos de los lexememas menos comunes no están contemplados en el analizador, como por ejemplo los número en octal o algunos símbolos especiales. Cuenta con un pequeño manejador de errores, que únicamente reconoce cuando un lexema es más grande que el tamaño del buffer usado, en la técnica de lectura por bloques con centinela.
 
 ## Ejecución
 Para la ejecución debes tener el compilador de C, gcc, instalado en tu sistema operativo. Posteriormente, debes ejecuar el siguiente comando en la terminal:
